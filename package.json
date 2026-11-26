@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.65.1"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node generate-report.js",
+    "execution": "npm run test && npm run report"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.2.1"
+  }
+}

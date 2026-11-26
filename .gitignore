@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Cucumber Reports
+reports/cucumber-report.json
+reports/html-report/
+
+# Screenshots
+screenshots/
+
+# Videos
+videos/
+
+# Traces
+trace.zip
+traces/
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment Files
+.env
+.env.*
+
+# Coverage
+coverage/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary Files
+tmp/
+temp/
